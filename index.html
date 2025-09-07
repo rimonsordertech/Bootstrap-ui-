@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap5 Local Setup</title>
+
+  <!-- Bootstrap CSS (Local) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery UI CSS -->
+  <link rel="stylesheet" href="css/jquery.ui.css">
+
+   
+
+  <!-- Bootstrap Icons (Local) -->
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<!-- ex1 -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <button class="btn btn-dark">This is button</button>
+    </div>
+
+    <div class="col-lg-6">
+      <div id="draggable" class="ui-widget-content p-3">
+        <img src="img/demo.jpg" width="100" alt="no picture">
+        <p>Drag me around</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- ex2 -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="droppable1" class="ui-widget-content p-3 mb-3">
+        <p>Drag me to my target</p>
+      </div>
+      <div id="droppable2" class="ui-widget-header p-3">
+        <p>Drop here</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- ex3 -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- ex4 (Accordion) -->
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+
+  <h3>Section 2</h3>
+  <div>
+    <p>
+      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+      suscipit faucibus urna.
+    </p>
+  </div>
+
+  <h3>Section 3</h3>
+  <div>
+    <p>
+      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+
+  <h3>Section 4</h3>
+  <div>
+    <p>
+      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+      mauris vel est.
+    </p>
+    <p>
+      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+      inceptos himenaeos.
+    </p>
+
+
+  </div>
+</div>
+<!-- ex5 -->
+<div class="ui-widget">
+  <label for="tags">Tags: </label>
+  <input id="tags">
+</div>
+<!-- EX6 -->
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+</select>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ <!-- EX7 -->
+  <div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Resizable</h3>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ex8 -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="widget">
+  <h1>Checkbox and radio button widgets</h1>
+ 
+  <h2>Radio Group</h2>
+  <fieldset>
+    <legend>Select a Location: </legend>
+    <label for="radio-1">New York</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Paris</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">London</label>
+    <input type="radio" name="radio-1" id="radio-3">
+  </fieldset>
+ 
+  <h2>Checkbox</h2>
+  <fieldset>
+    <legend>Hotel Ratings: </legend>
+    <label for="checkbox-1">2 Star</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">3 Star</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">4 Star</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">5 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+ 
+  <h2>Checkbox nested in label</h2>
+  <fieldset>
+    <legend>Bed Type: </legend>
+    <label for="checkbox-nested-1">2 Double
+      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+    </label>
+    <label for="checkbox-nested-2">2 Queen
+      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+    </label>
+    <label for="checkbox-nested-3">1 Queen
+      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+    </label>
+    <label for="checkbox-nested-4">1 King
+      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+    </label>
+    </fieldset>
+   </div>
+   </div>
+  </div>
+</div> 
+<!-- ex9 -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="widget">
+  <h1>Controlgroup</h1>
+  <fieldset>
+    <legend>Rental Car</legend>
+    <div class="controlgroup">
+      <select id="car-type">
+        <option>Compact car</option>
+        <option>Midsize car</option>
+        <option>Full size car</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+        <option>Truck</option>
+        <option>Van</option>
+      </select>
+      <label for="transmission-standard">Standard</label>
+      <input type="radio" name="transmission" id="transmission-standard">
+      <label for="transmission-automatic">Automatic</label>
+      <input type="radio" name="transmission" id="transmission-automatic">
+      <label for="insurance">Insurance</label>
+      <input type="checkbox" name="insurance" id="insurance">
+      <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+      <input id="horizontal-spinner" class="ui-spinner-input">
+      <button class="btn btn-dark" type="button">Book Now!</button>
+    </div>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Rental Car</legend>
+    <div class="controlgroup-vertical">
+      <select>
+        <option>Compact car</option>
+        <option>Midsize car</option>
+        <option>Full size car</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+        <option>Truck</option>
+        <option>Van</option>
+      </select>
+      <label for="transmission-standard-v">Standard</label>
+      <input type="radio" name="transmission-v" id="transmission-standard-v">
+      <label for="transmission-automatic-v">Automatic</label>
+      <input type="radio" name="transmission-v" id="transmission-automatic-v">
+      <label for="insurance-v">Insurance</label>
+      <input type="checkbox" name="insurance" id="insurance-v">
+      <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+      <input id="vertical-spinner" class="ui-spinner-input">
+      <button class="btn btn-dark" type="button" id="book">Book Now!</button>
+        </div>
+      </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ex10 -->
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+       <p>Date: <input type="text" id="datepicker" size="30"></p>
+ 
+<p>Animations:<br>
+  <select id="anim">
+    <option value="show">Show (default)</option>
+    <option value="slideDown">Slide down</option>
+    <option value="fadeIn">Fade in</option>
+    <option value="blind">Blind (UI Effect)</option>
+    <option value="bounce">Bounce (UI Effect)</option>
+    <option value="clip">Clip (UI Effect)</option>
+    <option value="drop">Drop (UI Effect)</option>
+    <option value="fold">Fold (UI Effect)</option>
+    <option value="slide">Slide (UI Effect)</option>
+    <option value="">None</option>
+       </select>
+     </p>
+    </div>
+   </div>
+ </div>
+ <!-- ex11 -->
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+        
+<div id="dialog-message" title="Download complete">
+  <p>
+    <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+    Your files have downloaded successfully into the My Downloads folder.
+  </p>
+  <p>
+    Currently using <b>36% of your storage space</b>.
+  </p>
+</div>
+ 
+<p>Sed vel diam id libero <a href="https://example.com">rutrum convallis</a>. Donec aliquet leo vel magna. Phasellus rhoncus faucibus ante. Etiam bibendum, enim faucibus aliquet rhoncus, arcu felis ultricies neque, sit amet auctor elit eros a lectus.</p>
+  <!-- ex13 -->
+ 
+     </div>
+   </div>
+ </div>
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+       <div id="dialog" title="File Download">
+  <div class="progress-label">Starting download...</div>
+    <div id="progressbar"></div>
+    </div>
+      <button id="downloadButton" class="btn btn-dark" type="button">Start Download</button>
+     </div>
+   </div>
+ </div>
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+       <p><a href="#" title="That's what this widget is">Tooltips</a> can be attached to any element. When you hover
+    the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+   <p>But as it's not a native tooltip, it can be styled. Any themes built with
+  <a href="https://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI's theme builder application">ThemeRoller</a>
+  will also style tooltips accordingly.</p>
+  <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+  <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+<p>Hover the field to see the tooltip.</p>
+  </div>
+   </div>
+   <!-- ex14 -->
+
+ </div>
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+      <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p><strong>Click this tab again to close the content pane.</strong></p>
+    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+  </div>
+  <div id="tabs-2">
+    <p><strong>Click this tab again to close the content pane.</strong></p>
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+  </div>
+  <div id="tabs-3">
+    <p><strong>Click this tab again to close the content pane.</strong></p>
+    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+  </div>
+</div>
+ </div>
+   </div>
+ </div>
+ <div class="container">
+   <div class="col-12">
+     <div class="col-lg-12">
+       <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+  <span class="ui-icon ui-icon-volume-on" style="float:left; margin:-2px 5px 0 0;"></span>
+  Master volume
+</p>
+ 
+<div id="master" style="width:260px; margin:15px;"></div>
+ 
+<p class="ui-state-default ui-corner-all" style="padding:4px;margin-top:4em;">
+  <span class="ui-icon ui-icon-signal" style="float:left; margin:-2px 5px 0 0;"></span>
+  Graphic EQ
+</p>
+ 
+<div id="eq">
+  <span>88</span>
+  <span>77</span>
+  <span>55</span>
+  <span>33</span>
+  <span>40</span>
+  <span>45</span>
+  <span>70</span>
+</div>
+ 
+     </div>
+   </div>
+ </div>
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+        
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Show</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+</select>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ 
+ 
+ 
+     </div>
+   </div>
+ </div>
+
+<!-- jQuery (must be first) -->
+<script src="js/jquery-3.7.1.min.js"></script>
+
+<!-- jQuery UI -->
+<script src="js/jquery.ui.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom Script -->
+ 
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <!-- jQuery UI -->
+  <script src="js/jquery.ui.min.js"></script>
+  <!-- Bootstrap Bundle JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
